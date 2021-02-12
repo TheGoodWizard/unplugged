@@ -92,7 +92,9 @@ textarea {
 
     header,
     footer {
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
 
@@ -324,7 +326,7 @@ textarea {
 
 
     .FAQ-content {
-      
+
     }
 
 
