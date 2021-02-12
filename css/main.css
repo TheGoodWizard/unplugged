@@ -96,14 +96,11 @@ textarea {
     }
 
 
-    /* Header Styles */
+    /************ Header Styles ************/
+
+    /****** Header HTML Element Styles ******/
 
     header {
-
-    }
-
-
-    header .content-wrapper {
 
     }
 
@@ -113,34 +110,223 @@ textarea {
     }
 
 
-    .header-divider {
-
-    }
-
-
     header nav {
 
     }
 
 
-
-    /* ----------------------- Mobile Styles - Homepage ------------------------ */
-
-    .hero-area {
+    header ul {
 
     }
 
+
+    header li {
+
+    }
+
+
+    header a {
+
+    }
+
+
+    /****** Header Class Styles *****/
+
+    .header-divider {
+
+    }
+
+
+    header .content-wrapper {
+
+    }
+
+
+
+
+
+
+    /************ Footer Styles ***********/ 
+
+    /****** Footer HTML Element Styles ******/
+
+    footer {
+
+    }  
+
+
+    footer h2 {
+
+    }
+
+    footer h4 {
+
+    }
+
+
+    footer p {
+
+    }
+
+
+    footer a {
+      
+    }
+
+
+    footer address {
+
+    }
+
+
+    /****** Footer Class Styles ******/
+
+    footer .content-wrapper {
+
+    }
+
+
+    footer .footer-content {
+
+    }
+
+
+    footer .social {
+
+    }
+
+
+    footer .social-icons {
+
+    }
+
+
+    footer .contact {
+
+    }
+
+    footer .copyright {
+
+    }
+    
+
+
+    /* ----------------------- Mobile Styles - Homepage ------------------------ */
+
+    /*********** HTML Element Styles ************/ 
+    
 
     aside {
 
     }
 
-    
-    /* Footer */
 
-    footer {
+    article {
 
     }
+
+
+    input {
+
+    }
+
+    /************ Homepage - Class Styles ************/
+
+    
+    .hero-area {
+
+    }
+
+
+    .form-description {
+
+    }
+
+
+    .form {
+
+    }
+
+
+    .features {
+
+    }
+
+
+    .fontawesome-icon {
+
+    }
+
+
+    .features-item-description {
+
+    }
+
+
+    .reviews {
+
+    }
+
+
+
+    /* ----------------------- Mobile Styles - About Page ------------------------ */
+
+    /************ About Page - Class Styles ************/ 
+
+    .mission {
+
+    }
+
+
+    .mission-content {
+
+    }
+
+
+    .map {
+
+    }
+
+
+    .map-content {
+
+    }
+
+
+    .contact-info {
+
+    }
+
+
+    .contact-content {
+
+    }
+
+
+    .general-information {
+
+    }
+
+
+    .chat-with-facilitator {
+
+    }
+
+
+
+    /* ----------------------- Mobile Styles - FAQ Page ------------------------ */
+
+    /************ FAQ Page - Class Styles ************/ 
+
+    .FAQ {
+
+    }
+
+
+    .FAQ-content {
+      
+    }
+
 
 
 /* ==========================================================================
