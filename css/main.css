@@ -103,7 +103,9 @@ textarea {
     /****** Header HTML Element Styles ******/
 
     header {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
