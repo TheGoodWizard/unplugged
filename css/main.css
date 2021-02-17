@@ -213,12 +213,18 @@ textarea {
     
 
     .FAQ {
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
 
-    .FAQ-content {
-
+    .FAQ .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
 
