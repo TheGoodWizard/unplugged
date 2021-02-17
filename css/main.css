@@ -95,149 +95,59 @@ textarea {
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-
-
-    /************ Header Styles ************/
-
-    /****** Header HTML Element Styles ******/
-
-    header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    header figure {
-
-    }
-
-
-    header nav {
-
-    }
-
-
-    header ul {
-
-    }
-
-
-    header li {
-
-    }
-
-
-    header a {
-
-    }
-
-
-    /****** Header Class Styles *****/
-
-    .header-divider {
-
+      flex-flow: row wrap;
     }
 
 
     header .content-wrapper {
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
 
-
-
-
-
-    /************ Footer Styles ***********/ 
-
-    /****** Footer HTML Element Styles ******/
-
-    footer {
-
-    }  
-
-
-    footer h2 {
-
-    }
-
-    footer h4 {
-
+    header nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
 
-    footer p {
-
-    }
-
-
-    footer a {
-      
-    }
-
-
-    footer address {
-
-    }
-
-
-    /****** Footer Class Styles ******/
-
-    footer .content-wrapper {
-
-    }
-
-
-    footer .footer-content {
-
-    }
-
-
-    footer .social {
-
+    header nav ul {
+      display: flex;
+      justify-content: space-around;
     }
 
 
     footer .social-icons {
-
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
 
 
-    footer .contact {
-
+    footer .social-icons p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    footer .copyright {
-
-    }
-    
 
 
     /* ----------------------- Mobile Styles - Homepage ------------------------ */
 
-    /*********** HTML Element Styles ************/ 
-    
+      /***** Hero Area ******/   
+      
+    .hero-area {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      }
+      
 
     aside {
-
-    }
-
-
-    article {
-
-    }
-
-
-    input {
-
-    }
-
-    /************ Homepage - Class Styles ************/
-
-    
-    .hero-area {
 
     }
 
@@ -247,26 +157,11 @@ textarea {
     }
 
 
-    .form {
-
-    }
-
-
     .features {
 
     }
 
-
-    .fontawesome-icon {
-
-    }
-
-
-    .features-item-description {
-
-    }
-
-
+    
     .reviews {
 
     }
