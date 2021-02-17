@@ -138,39 +138,58 @@ textarea {
 
     /* ----------------------- Mobile Styles - Homepage ------------------------ */
 
-      /***** Hero Area ******/   
+      
+    /***** Hero Area ******/  
+
       
     .hero-area {
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
       }
+
       
+      /****** Aside ******/
+
 
     aside {
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
 
-    .form-description {
-
-    }
-
-
-    .features {
-
-    }
+    /****** Features ******/
 
     
-    .reviews {
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+    }
 
+
+    .features .feature-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
+
+    /****** Reviews ******/
+
+
+    .reviews {
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
     }
 
 
 
     /* ----------------------- Mobile Styles - About Page ------------------------ */
-
-    /************ About Page - Class Styles ************/ 
+ 
 
     .mission {
 
