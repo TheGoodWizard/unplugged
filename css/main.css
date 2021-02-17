@@ -192,49 +192,25 @@ textarea {
  
 
     .mission {
-
-    }
-
-
-    .mission-content {
-
-    }
-
-
-    .map {
-
-    }
-
-
-    .map-content {
-
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
 
     .contact-info {
-
-    }
-
-
-    .contact-content {
-
-    }
-
-
-    .general-information {
-
-    }
-
-
-    .chat-with-facilitator {
-
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
 
 
     /* ----------------------- Mobile Styles - FAQ Page ------------------------ */
 
-    /************ FAQ Page - Class Styles ************/ 
+    
 
     .FAQ {
 
