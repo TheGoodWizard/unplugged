@@ -104,6 +104,16 @@ textarea {
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+      width: 55%;
+      margin: 50px 0;
+    }
+
+    footer .content-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 55%;
+      margin: 50px 0;
     }
 
 
@@ -112,12 +122,18 @@ textarea {
       justify-content: space-around;
       align-items: center;
       flex-flow: row wrap;
+      width: 60%;
     }
 
 
     header nav ul {
       display: flex;
       justify-content: space-around;
+      width: 30%;
+    }
+
+    .header-divider {
+      width: 100%;
     }
 
 
@@ -137,6 +153,14 @@ textarea {
 
 
     /* ----------------------- Mobile Styles - Homepage ------------------------ */
+
+    /****** Header Styles ******/
+
+
+    header {
+      padding: 15px 0;
+    }
+
 
       
     /***** Hero Area ******/  
@@ -168,6 +192,9 @@ textarea {
       flex-flow: row wrap;
     }
 
+    .features article {
+      width: 85%;
+    }
 
     .features .feature-items {
       display: flex;
@@ -184,6 +211,10 @@ textarea {
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
+    }
+
+    .reviews h3 {
+      width: 55%;
     }
 
 
