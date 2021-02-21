@@ -98,33 +98,39 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  text-align: left;
 }
 
 
 ul,
 ol {
-
+  list-style-type: none;
 }
 
 
 a {
-
+  color: #e2e3ed;
+  text-decoration: none;
 }
 
 
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-size: 2em;
 }
 
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.5em;
 }
 
 
 p {
-
+  font-size: 1em;
+  line-height: 1.285;
 }
 
 
@@ -139,7 +145,7 @@ figure {
 
 
 address {
-
+  font-style: normal;
 }
 
 
