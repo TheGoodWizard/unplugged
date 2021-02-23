@@ -113,26 +113,42 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  color: #e2e3ed;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+
+
 
 h2 {
+  color: #e2e3ed;
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
+  font-weight: 500;
 }
 
 
 h3,
 h4 {
+  color: #e2e3ed;
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
   font-size: 1.5em;
-  color: #e2e3ed;
+  font-weight: 500;
+  
 }
 
 
 p {
   color: #e2e3ed;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  font-weight: 400;
   line-height: 1.285;
+  margin: 20px 0;
 }
 
 
@@ -153,6 +169,10 @@ address {
 
 .content-wrapper {
   
+}
+
+.reviews {
+  background-color: #2a423a;
 }
 
 
@@ -193,6 +213,7 @@ input[type=button] {
 
     header,
     footer {
+      background-color: #202322;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -387,6 +408,7 @@ input[type=button] {
     
 
     .FAQ {
+      background-color: #527158;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -501,17 +523,17 @@ input[type=button] {
    TO 4!!!!
    ========================================================================== */
 
-@media only screen and (min-width: 786px) {
+@media only screen and (min-width: 768px) {
     /* TABLET STYLES HERE!!! */
 
-    /****** General Styles ******/
+    /****** General Styles || +++ Tablet +++ || ******/
 
     .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
     }
 
-    /****** Header ******/
+    /****** Header || +++ Tablet +++ || ******/
 
     header {
       justify-content: space-around; 
@@ -535,9 +557,9 @@ input[type=button] {
       display: none; 
     }
 
-    /****** Hero Area ******/
+    /****** Hero Area || +++ Tablet +++ || ******/
 
-    /****** Aside ******/
+    /****** Aside || +++ Tablet +++ || ******/
 
     aside .content-wrapper {
       margin: 50px 0;
@@ -552,7 +574,7 @@ input[type=button] {
       margin: 0;
     }
 
-    /****** Features ******/
+    /****** Features || +++ Tablet +++ || ******/
 
     .features article {
       display: flex;
@@ -566,18 +588,20 @@ input[type=button] {
       width: 50%;
     }
 
-    /****** Reviews ******/
+
+
+    /****** Reviews || +++ Tablet +++ || ******/
 
     .reviews article {
       display: flex;
       justify-content: space-between;
     }
 
-    reviews article div {
+    .reviews article div {
       width: 49%;
     }
 
-    /****** Footer ******/
+    /****** Footer || +++ Tablet +++ || ******/
 
     footer .content-wrapper {
       width: 65%;
@@ -598,9 +622,10 @@ input[type=button] {
       width: 100%;
     }
 
-    /****** ====== About Page ====== ******/
+    /****** ====== About Page ====== || +++ Tablet +++ || ******/
 
     .mission-content {
+      background-color: #527158;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -616,22 +641,27 @@ input[type=button] {
     }
 
     .contact-content {
+      background-color: #2a423a;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
     }
 
-    /****** ====== FAQ Page ====== ******/
+    .content-info {
+    
+    }
 
-    .faq .content-wrapper {
+    /****** ====== FAQ Page ====== || +++ Tablet +++ || ******/
+
+    .FAQ .content-wrapper {
       justify-content: space-between;
     }
 
-    .faq-content {
+    .FAQ-content {
       flex-basis: 45%;
     }
 
-    .faq h2 {
+    .FAQ h2 {
       width: 100%;
     }
 
@@ -646,13 +676,13 @@ input[type=button] {
   }
 
 
-  /****** Hero ******/
+  /****** Hero || +++ Desktop +++ || ******/
 
   .hero-area h1 {
     width: 60px;
   }
 
-  /****** Aside ******/
+  /****** Aside || +++ Desktop +++ || ******/
 
   aside .content-wrapper {
     justify-content: space-around;
@@ -663,7 +693,7 @@ input[type=button] {
     width: 30%;
   }
 
-  /****** Features ******/
+  /****** Features || +++ Desktop +++ || ******/
 
   .features h2 {
     width: 90%;
@@ -673,14 +703,14 @@ input[type=button] {
     flex-basis: 33%;
   }
 
-  /****** Reviews ******/
+  /****** Reviews || +++ Desktop +++ || ******/
 
   .reviews article div {
     width: 42%;
   }
 
 
-  /****** ====== About Page ====== ******/
+  /****** ====== About Page ====== || +++ Desktop +++ || ******/
 
   .mission h2,
   .contact-section .content-wrapper h2 {
@@ -688,7 +718,7 @@ input[type=button] {
   }
 
 
-  /****** ====== FAQ Page ====== ******/
+  /****** ====== FAQ Page ====== || +++ Desktop +++ || ******/
   
   .FAQ h2 {
     width: 100%;
