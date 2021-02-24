@@ -138,12 +138,12 @@ p {
 
 
 img {
-
+  width: 100%;
 }
 
 
 figure {
-
+  margin: 0;
 }
 
 
@@ -177,11 +177,22 @@ address {
 
 
     header .content-wrapper {
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
     }
+
+
+    header figure {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
 
     .header-divider {
       background: #3a3a3a;
@@ -265,10 +276,11 @@ address {
 
       
     .hero-area {
+      min-height: 500px;
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
-      background-image: url('/img/jake-melara-30679-unsplash.jpg');
+      background: url('../img/jake-melara-30679-unsplash.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -330,7 +342,7 @@ address {
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
-      background-image: url('/img/rawpixel-800820-unsplash1.jpg');
+      background: url('../img/rawpixel-800820-unsplash1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -392,7 +404,7 @@ address {
     .mission {
       background-color: #527158;
       display: flex;
-      justify-items: center;
+      justify-content: center;
       align-items: center;
       flex-flow: row wrap;
     }
@@ -401,7 +413,7 @@ address {
     .contact-section {
       background-color: #2a423a;
       display: flex;
-      justify-items: center;
+      justify-content: center;
       align-items: center;
       flex-flow: row wrap;
     }
@@ -598,6 +610,11 @@ address {
     /****** Hero Area || +++ Tablet +++ || ******/
 
 
+    .hero-area {
+      min-height: 600px;
+    }
+
+
     .hero-area h1 {
       font-size: 3em;
       line-height: 1;
@@ -656,6 +673,7 @@ address {
     }
 
 
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -757,11 +775,6 @@ address {
     }
 
 
-    .FAQ h2 {
-      width: 100%;
-    }
-
-
     .FAQ h4,
     .FAQ p {
       font-size: .875em;
@@ -809,7 +822,7 @@ address {
 
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
 
