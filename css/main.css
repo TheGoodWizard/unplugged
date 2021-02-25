@@ -410,6 +410,24 @@ address {
     }
 
 
+    .map figure {
+      position: relative;     /*** ~!~ Will allow for iframe to be set to position: absolute.   Relative Positioning: allows an element to be positioned relative to its normal spot on the page ~!~ ***/
+      padding-bottom: 125%;    /*** ~!~ Sets up the relationship between the height and width (the map's asepct ratio) of Google map. ~!~ ***/
+      height: 0;
+      width: 100%;
+      overflow: hidden;
+    }
+
+
+    .map iframe {
+      position: absolute;  /*** ~!~ Absolute Positioning: an element (<iframe> in this example) will be positioned relative to the nearest parent element (the map figure in this case). ~!~ ***/
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+
     .contact-section {
       background-color: #2a423a;
       display: flex;
