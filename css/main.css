@@ -757,6 +757,11 @@ address {
     }
 
 
+    .map figure {
+      padding-bottom: 45.5%;    /*** ~!~ Sets up the relationship between the height and width (the map's asepct ratio) of Google map.  [352/600 = .058666... === 59%.] ~!~ ***/
+    }
+      
+
     .contact-section .content-wrapper h2 {
       width: 80%;
     }
@@ -914,6 +919,14 @@ address {
 
   .contact-content h4 {
     font-size: 1.875em;
+  }
+
+
+  .map figure {
+    padding-bottom: 37.5%;    /*** ~!~ Sets up the relationship between the height and width (the map's asepct ratio) of Google map. ~!~ ***/
+    height: 0;
+    width: 100%;
+    overflow: hidden;
   }
 
 
